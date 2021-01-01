@@ -1,5 +1,5 @@
-CREATE DATABASE empresaTest;
-USE empresaTest;
+CREATE DATABASE empresa;
+USE empresa;
 
 CREATE TABLE empresa(
     id INT PRIMARY KEY AUTO_INCREMENT,

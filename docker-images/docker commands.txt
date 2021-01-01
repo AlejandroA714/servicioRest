@@ -1,0 +1,3 @@
+docker pull mysql/mysql-server:latest
+
+docker run --name mysql-standalone -e MYSQL_ROOT_PASSWORD=Password01 -e MYSQL_DATABASE=empresa -e MYSQL_USER=root -e MYSQL_PASSWORD=Password01 -d mysql/mysql-server:latest

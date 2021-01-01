@@ -3,6 +3,8 @@ package com.example.servicioRest.controllers;
 import com.example.servicioRest.entities.Empresa;
 import com.example.servicioRest.utils.Result;
 import com.example.servicioRest.repositories.EmpresaRepository;
+import javassist.NotFoundException;
+import org.hibernate.annotations.NotFound;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -10,6 +12,7 @@ import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.*;
 
+import javax.swing.text.html.Option;
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 import java.util.List;
@@ -34,10 +37,9 @@ public class EmpresaController {
     }
 
     @GetMapping("/{id}")
-    private ResponseEntity<Result> obtenerEmpresa(@PathVariable Integer id){
+    private ResponseEntity<Result> obtenerEmpresa(@PathVariable Integer id) {
         try{
-            Optional<Empresa> empresa = Optional.of(empresaRepository.getOne(id));
-            if (!empresa.isPresent()){ throw  new Exception("No existe empresa con ese id");}
+            Optional<Empresa> empresa = Optional.ofNullable(empresaRepository.findById(id).orElseThrow(() -> new NotFoundException("404 Empresa no encontrada")));
             return ResponseEntity.ok(new Result(true,empresa));
         }catch (Exception e){
             return ResponseEntity.ok(new Result(false,String.format("¡Error Fallo debido a: %s!", e.getMessage())));
@@ -95,5 +97,12 @@ public class EmpresaController {
         }
         return ResponseEntity.ok(new Result(false,ErrorStr));
     }
+/*
+    @ExceptionHandler(NotFoundException.class)
+    private void notFoundHandler(NotFoundException ex){
+      //  return ResponseEntity.ok(new Result(false,ex.getMessage()));
+    }
+
+*/
 
 }
