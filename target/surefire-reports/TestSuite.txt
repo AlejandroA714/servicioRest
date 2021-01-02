@@ -1,0 +1,58 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 6.48 s <<< FAILURE! - in TestSuite
+inserEmpresaSholudReturnSuccess on inserEmpresaSholudReturnSuccess(com.example.servicioRest.controllers.EmpresaControllerTest)(com.example.servicioRest.controllers.EmpresaControllerTest)  Time elapsed: 1.83 s  <<< FAILURE!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.dao.DataAccessResourceFailureException: Could not create JPA EntityManager; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+	at com.example.servicioRest.controllers.EmpresaControllerTest.inserEmpresaSholudReturnSuccess(EmpresaControllerTest.java:137)
+Caused by: org.springframework.dao.DataAccessResourceFailureException: Could not create JPA EntityManager; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+	at com.example.servicioRest.controllers.EmpresaControllerTest.inserEmpresaSholudReturnSuccess(EmpresaControllerTest.java:137)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+Caused by: org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+Caused by: java.sql.SQLSyntaxErrorException: Access denied for user 'root'@'%' to database 'empresaTest'
+
+obtenerEmpresasShouldSuccess on obtenerEmpresasShouldSuccess(com.example.servicioRest.controllers.EmpresaControllerTest)(com.example.servicioRest.controllers.EmpresaControllerTest)  Time elapsed: 0.004 s  <<< FAILURE!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.dao.DataAccessResourceFailureException: Could not create JPA EntityManager; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+	at com.example.servicioRest.controllers.EmpresaControllerTest.obtenerEmpresasShouldSuccess(EmpresaControllerTest.java:75)
+Caused by: org.springframework.dao.DataAccessResourceFailureException: Could not create JPA EntityManager; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+	at com.example.servicioRest.controllers.EmpresaControllerTest.obtenerEmpresasShouldSuccess(EmpresaControllerTest.java:75)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+Caused by: org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+Caused by: java.sql.SQLSyntaxErrorException: Access denied for user 'root'@'%' to database 'empresaTest'
+
+insertUser400 on insertUser400(com.example.servicioRest.controllers.EmpresaControllerTest)(com.example.servicioRest.controllers.EmpresaControllerTest)  Time elapsed: 0.008 s  <<< FAILURE!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.dao.DataAccessResourceFailureException: Could not create JPA EntityManager; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+	at com.example.servicioRest.controllers.EmpresaControllerTest.insertUser400(EmpresaControllerTest.java:124)
+Caused by: org.springframework.dao.DataAccessResourceFailureException: Could not create JPA EntityManager; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+	at com.example.servicioRest.controllers.EmpresaControllerTest.insertUser400(EmpresaControllerTest.java:124)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+Caused by: org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+Caused by: java.sql.SQLSyntaxErrorException: Access denied for user 'root'@'%' to database 'empresaTest'
+
+getByIdShouldReturnObject on getByIdShouldReturnObject(com.example.servicioRest.controllers.EmpresaControllerTest)(com.example.servicioRest.controllers.EmpresaControllerTest)  Time elapsed: 0.014 s  <<< FAILURE!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.dao.DataAccessResourceFailureException: Could not create JPA EntityManager; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+	at com.example.servicioRest.controllers.EmpresaControllerTest.getByIdShouldReturnObject(EmpresaControllerTest.java:110)
+Caused by: org.springframework.dao.DataAccessResourceFailureException: Could not create JPA EntityManager; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+	at com.example.servicioRest.controllers.EmpresaControllerTest.getByIdShouldReturnObject(EmpresaControllerTest.java:110)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+Caused by: org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+Caused by: java.sql.SQLSyntaxErrorException: Access denied for user 'root'@'%' to database 'empresaTest'
+
+obtenerEmpresasShouldFail on obtenerEmpresasShouldFail(com.example.servicioRest.controllers.EmpresaControllerTest)(com.example.servicioRest.controllers.EmpresaControllerTest)  Time elapsed: 0.009 s  <<< FAILURE!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.dao.DataAccessResourceFailureException: Could not create JPA EntityManager; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+	at com.example.servicioRest.controllers.EmpresaControllerTest.obtenerEmpresasShouldFail(EmpresaControllerTest.java:85)
+Caused by: org.springframework.dao.DataAccessResourceFailureException: Could not create JPA EntityManager; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+	at com.example.servicioRest.controllers.EmpresaControllerTest.obtenerEmpresasShouldFail(EmpresaControllerTest.java:85)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+Caused by: org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+Caused by: java.sql.SQLSyntaxErrorException: Access denied for user 'root'@'%' to database 'empresaTest'
+
+getByIdShouldReturnOptional on getByIdShouldReturnOptional(com.example.servicioRest.controllers.EmpresaControllerTest)(com.example.servicioRest.controllers.EmpresaControllerTest)  Time elapsed: 0.006 s  <<< FAILURE!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.dao.DataAccessResourceFailureException: Could not create JPA EntityManager; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+	at com.example.servicioRest.controllers.EmpresaControllerTest.getByIdShouldReturnOptional(EmpresaControllerTest.java:96)
+Caused by: org.springframework.dao.DataAccessResourceFailureException: Could not create JPA EntityManager; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+	at com.example.servicioRest.controllers.EmpresaControllerTest.getByIdShouldReturnOptional(EmpresaControllerTest.java:96)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+Caused by: org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+Caused by: java.sql.SQLSyntaxErrorException: Access denied for user 'root'@'%' to database 'empresaTest'
+

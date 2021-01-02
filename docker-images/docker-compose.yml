@@ -1,0 +1,21 @@
+version: "3.8"
+services:
+  mysql-server:
+    image: mysql/mysql-server:latest
+    environment: 
+      - MYSQL_ROOT_PASSWORD=Password01
+      - MYSQL_DATABASE=empresa
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=Password01
+    ports: 
+      - 3306:3306
+  servicioRest:
+    ports: 
+      - 8080:8080
+    depends_on: 
+      - mysql-server
+    links: 
+      - mysql-server
+    image: 
+      serviciorest:latest
+  
