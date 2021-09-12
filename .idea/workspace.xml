@@ -5,41 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e79763e1-e6c1-4341-9013-c2e5b7b1ea2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_78.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_1_android.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_no_aop_4_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_java_commons_2_13_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_junit5_2_13_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_junit_platform_2_13_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_model_2_13_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tika_tika_core_1_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jooq_joor_java_8_0_9_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_launcher_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/servicioRest_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/servicioRest_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_0_0_1_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base.sql" beforeDir="false" afterPath="$PROJECT_DIR$/base.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/020c967f-62c8-40b9-bbcb-767915527865-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0305ca13-cd7b-4933-8f46-723a5d34544b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/06901577-4c14-43e2-b7e7-3cbbe52811b7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0855f7cd-eeac-43d2-b638-a2496c321834-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1010a67b-4839-46f7-bc5d-3300aa640604-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1979c7f9-5262-4dfd-9168-0d6cf0f64708-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1d3c5922-24a1-4cc4-87d4-73782384160b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/27594cf3-1ba3-46c5-ad56-fbe15a51b99a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/38ed32f0-95e9-475e-ba92-570b313380ad-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3c9c8703-5472-4d8f-9fc7-2bc9a5234cd9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/45c29c55-41a5-470a-8d0e-593efd782eae-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4762d30f-e526-4879-9136-50a692e034b4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4c58debd-dc25-4470-b5ea-f8f2641a79f7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/501bcc98-ee81-4fc5-8669-12e99e08995d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/596ad44d-51a3-42e0-b8e5-52f80d302bc1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/76b26508-7a70-4426-96a9-27308e2ebcef-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/785daf63-6ed1-4ced-9c16-1081d8b5e219-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7e3232e5-6c17-4b7c-b098-e30688ff0d25-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7f7a245c-7e2d-4176-8cfb-be687599461f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/81653abe-8374-4d14-8810-cbeb093acb46-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/96984fe4-8d63-4e0d-bd0c-11449d458a7c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9ed50a67-02be-465c-8727-550b11d301ba-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9ee8e06a-5f9a-4a4c-a787-2c5d896d996a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a0021eb7-00a3-47a3-8c5c-498a05c335e0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a81c7158-c681-4b0f-9489-21c2c8ae24dd-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ab793ec3-1722-4f72-ae57-77520a4f3030-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b1360392-e03b-4eac-a3a6-aadc8f80a2ed-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b2f3937e-24e6-4f73-9463-bb28b841d347-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/be0a3b93-7a80-457e-badc-c6cb360c07c5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c0e531a6-f55f-4479-bf90-6d4d5de8ecf7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c566fc29-9c2d-4e7e-b4a1-edfb446e9ae5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c7a3d4ff-a11e-4efe-8f85-9edc80919565-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/cf464535-263a-47bf-a7b4-4b33ef2f90d6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d30fb73a-c31f-48e1-ae76-179afca901af-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d632e296-4c22-4143-ab0c-053baf21f1d5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/dfe99949-d3fe-421b-8c19-6a39ae5bfc7b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f4c1b2e8-31e4-429f-837e-a00df4ab2d01-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fa2cf3ed-436d-47d0-972a-18ee36610bfa-container.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/servicioRest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servicioRest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/servicioRest/controllers/EmpresaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/servicioRest/controllers/EmpresaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/servicioRest/controllers/EmpresaControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/servicioRest/controllers/EmpresaControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/servicioRest/controllers/EmpresaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/servicioRest/controllers/EmpresaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/servicioRest/controllers/EmpresaControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/servicioRest/controllers/EmpresaControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +54,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="ProjectId" id="1lNhtyGzvkF9Tts0EgvpKTsG5bi" />
   <component name="ProjectViewState">
@@ -67,6 +66,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -98,11 +98,23 @@
       <workItem from="1608219504067" duration="2463000" />
       <workItem from="1608224252459" duration="24000" />
       <workItem from="1609186518276" duration="638000" />
+      <workItem from="1631310263580" duration="944000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="743" y="271" width="424" height="494" key="FileChooserDialogImpl" timestamp="1609189420682">
